@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./dash.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./Group 13.png" alt="" class="icon" />
+    </header>
+    <div class="container">
+      <nav>
+        <div class="top dash">
+          <i class="fas fa-chart-line"></i>
+          <a href="../dashboard/dash.html" class="nav-link">Dashboard</a>
+        </div>
+        <div class="collapse">
+          <div class="top">
+            <i class="fas fa-box-open"></i>
+            <a href="../order-mange-1/order.html" class="nav-link"
+              >Order Management</a
+            >
+          </div>
+          <div class="bottom">
+            <a href="../order-mange-1/order.html" class="bottom-tags"
+              >Order Processing</a
+            >
+            <a href="#" class="bottom-tags">Order History</a>
+            <a href="../order cancel/cancel.html" class="bottom-tags"
+              >Cancellation</a
+            >
+            <a href="#" class="bottom-tags">Refund/Return</a>
+          </div>
+        </div>
+        <div class="top">
+          <i class="fas fa-tasks"></i>
+          <a href="../category manage/category.html" class="nav-link"
+            >Category Management</a
+          >
+        </div>
+        <div class="top">
+          <i class="fas fa-boxes"></i>
+          <a href="../product manage/cancel.html" class="nav-link"
+            >Product Management</a
+          >
+        </div>
+        <div class="top">
+          <i class="fas fa-truck"></i>
+          <a href="../ship manage/order.html" class="nav-link"
+            >Shipping Management</a
+          >
+        </div>
+        <div class="collapse">
+          <div class="top">
+            <i class="fas fa-user-clock"></i>
+            <a href="../retail-list/cancel.html" class="nav-link"
+              >Retail Management</a
+            >
+          </div>
+          <div class="bottom">
+            <a href="../retail-list/cancel.html" class="bottom-tags"
+              >Retailer List</a
+            >
+            <a href="../retail-application/cancel.html" class="bottom-tags"
+              >Retailer Application</a
+            >
+            <a href="../retail shop/cancel.html" class="bottom-tags"
+              >Retailer Shop</a
+            >
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="top">
+            <i class="fas fa-dolly"></i>
+            <a href="../whole-sale list/cancel.html" class="nav-link"
+              >Wholesale Management</a
+            >
+          </div>
+          <div class="bottom">
+            <a href="../whole-sale list/cancel.html" class="bottom-tags"
+              >Wholesale List</a
+            >
+            <a href="../whole-sale application/cancel.html" class="bottom-tags"
+              >Wholesale Application</a
+            >
+            <a href="../whole-sale shop/cancel.html" class="bottom-tags"
+              >Wholesale Shop</a
+            >
+          </div>
+        </div>
+        <div class="top">
+          <i class="far fa-user"></i>
+          <a href="../User Management/cancel.html" class="nav-link"
+            >User Management</a
+          >
+        </div>
+        <div class="top">
+          <i class="fas fa-clipboard"></i>
+          <a href="#" class="nav-link">Finance Center</a>
+        </div>
+        <div class="top">
+          <i class="fas fa-bell"></i>
+          <a href="../Notification/cancel.html" class="nav-link"
+            >Banner and Notification</a
+          >
+        </div>
+        <div class="top">
+          <i class="fas fa-bell"></i>
+          <a href="../enquiry/cancel.html" class="nav-link"
+            >Enquiry Management</a
+          >
+        </div>
+        <div class="top">
+          <i class="fas fa-ticket-alt"></i>
+          <a href="../voucher/cancel.html" class="nav-link"
+            >Voucher Management</a
+          >
+        </div>
+        <div class="top">
+          <i class="fas fa-users"></i>
+          <a href="#" class="nav-link">Community Management</a>
+        </div>
+        <div class="top">
+          <i class="fas fa-clipboard-check"></i>
+          <a href="../report/cancel.html" class="nav-link">Report</a>
+        </div>
+        <div class="top">
+          <i class="fas fa-redo-alt"></i>
+          <a href="#" class="nav-link">Vision update</a>
+        </div>
+        <div class="top">
+          <i class="fas fa-cog"></i>
+          <a href="#" class="nav-link">Setting</a>
+        </div>
+      </nav>
+      <div class="right">
+        <div class="first">
+          <i class="fas fa-chart-line"></i>
+          <p>Dashboard</p>
+        </div>
+        <h3>Dashboard</h3>
+        <div class="graph-div">
+          <div class="top-graph">
+            <div class="left-graph">
+              <p>User Active Times</p>
+              <p>Retailer Active Time</p>
+              <p>Wholesaler Active Time</p>
+            </div>
+            <div class="right-graph">
+              <p>LAST <strong>30 days</strong></p>
+            </div>
+          </div>
+          <img src="./graph.png" alt="" class="graph-img" />
+        </div>
+        <div class="users-div">
+          <div class="box">
+            <div class="left-box">
+              <i style="color: #ea6acc" class="box-icon far fa-user"></i>
+              <div class="col">
+                <h3>Total User</h3>
+                <p class="users">
+                  7652 <i class="fas fa-long-arrow-alt-down"></i>
+                </p>
+              </div>
+            </div>
+            <p class="desc">48% From Last Month</p>
+          </div>
+          <div class="box">
+            <div class="left-box">
+              <i style="color: #7d65f7" class="fas fa-user-clock"></i>
+              <div class="col">
+                <h3>Total Retailers</h3>
+                <p class="users">
+                  143 <i class="fas fa-long-arrow-alt-up"></i>
+                </p>
+              </div>
+            </div>
+            <p class="desc">48% From Last Month</p>
+          </div>
+          <div class="box">
+            <div class="left-box">
+              <i style="color: #f79a3e" class="fas fa-dolly"></i>
+              <div class="col">
+                <h3>Total WholeSaler</h3>
+                <p class="users">
+                  143 <i class="fas fa-long-arrow-alt-up"></i>
+                </p>
+              </div>
+            </div>
+            <p class="desc">48% From Last Month</p>
+          </div>
+          <div class="box">
+            <div class="left-box">
+              <i style="color: #29ce6b" class="fas fa-shopping-cart"></i>
+              <div class="col">
+                <h3>Order Status</h3>
+                <p class="users">
+                  8510 <i class="fas fa-long-arrow-alt-down"></i>
+                </p>
+              </div>
+            </div>
+            <p class="desc">36% From Last 24 Hours</p>
+          </div>
+        </div>
+        <div class="charts-div">
+          <div class="left-chart">
+            <h3>Hot Sales Category TOP 10</h3>
+            <div class="grid">
+              <p class="total">Total Payments</p>
+              <p class="buyer">Buyer</p>
+              <div class="categories">
+                <p class="category">Category A</p>
+                <p class="category">Category B</p>
+                <p class="category">Category C</p>
+                <p class="category">Category D</p>
+                <p class="category">Category E</p>
+                <p class="category">Category F</p>
+                <p class="category">Category G</p>
+                <p class="category">Category H</p>
+              </div>
+              <div class="payments">
+                <p class="payment">MYR 82.520</p>
+                <p class="payment">MYR 65.255</p>
+                <p class="payment">MYR 36.250</p>
+                <p class="payment">MYR 465.243</p>
+                <p class="payment">MYR 741.362</p>
+                <p class="payment">MYR 82.520</p>
+                <p class="payment">MYR 65.255</p>
+                <p class="payment">MYR 36.250</p>
+              </div>
+              <div class="buyer-div">
+                <p class="buyers">12035</p>
+                <p class="buyers">12035</p>
+                <p class="buyers">12035</p>
+                <p class="buyers">12035</p>
+                <p class="buyers">12035</p>
+                <p class="buyers">12035</p>
+                <p class="buyers">12035</p>
+                <p class="buyers">12035</p>
+              </div>
+            </div>
+          </div>
+          <div class="right-chart">
+            <img src="./Group 84.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

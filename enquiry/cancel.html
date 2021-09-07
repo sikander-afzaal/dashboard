@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./cancel.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./Group 13.png" alt="" class="icon" />
+    </header>
+    <div class="container">
+      <nav>
+        <div class="top">
+          <i class="fas fa-chart-line"></i>
+          <a href="../dashboard/dash.html" class="nav-link">Dashboard</a>
+        </div>
+        <div class="collapse">
+          <div class="top">
+            <i class="fas fa-box-open"></i>
+            <a href="../order-mange-1/order.html" class="nav-link"
+              >Order Management</a
+            >
+          </div>
+          <div class="bottom">
+            <a href="../order-mange-1/order.html" class="bottom-tags"
+              >Order Processing</a
+            >
+            <a href="#" class="bottom-tags">Order History</a>
+            <a href="../order cancel/cancel.html" class="bottom-tags"
+              >Cancellation</a
+            >
+            <a href="#" class="bottom-tags">Refund/Return</a>
+          </div>
+        </div>
+        <div class="top">
+          <i class="fas fa-tasks"></i>
+          <a href="../category manage/category.html" class="nav-link"
+            >Category Management</a
+          >
+        </div>
+        <div class="top">
+          <i class="fas fa-boxes"></i>
+          <a href="../product manage/cancel.html" class="nav-link"
+            >Product Management</a
+          >
+        </div>
+        <div class="top">
+          <i class="fas fa-truck"></i>
+          <a href="../ship manage/order.html" class="nav-link"
+            >Shipping Management</a
+          >
+        </div>
+        <div class="collapse">
+          <div class="top">
+            <i class="fas fa-user-clock"></i>
+            <a href="../retail-list/cancel.html" class="nav-link"
+              >Retail Management</a
+            >
+          </div>
+          <div class="bottom">
+            <a href="../retail-list/cancel.html" class="bottom-tags"
+              >Retailer List</a
+            >
+            <a href="../retail-application/cancel.html" class="bottom-tags"
+              >Retailer Application</a
+            >
+            <a href="../retail shop/cancel.html" class="bottom-tags"
+              >Retailer Shop</a
+            >
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="top">
+            <i class="fas fa-dolly"></i>
+            <a href="../whole-sale list/cancel.html" class="nav-link"
+              >Wholesale Management</a
+            >
+          </div>
+          <div class="bottom">
+            <a href="../whole-sale list/cancel.html" class="bottom-tags"
+              >Wholesale List</a
+            >
+            <a href="../whole-sale application/cancel.html" class="bottom-tags"
+              >Wholesale Application</a
+            >
+            <a href="../whole-sale shop/cancel.html" class="bottom-tags"
+              >Wholesale Shop</a
+            >
+          </div>
+        </div>
+        <div class="top">
+          <i class="far fa-user"></i>
+          <a href="../User Management/cancel.html" class="nav-link"
+            >User Management</a
+          >
+        </div>
+        <div class="top">
+          <i class="fas fa-clipboard"></i>
+          <a href="#" class="nav-link">Finance Center</a>
+        </div>
+        <div class="top">
+          <i class="fas fa-bell"></i>
+          <a href="../Notification/cancel.html" class="nav-link"
+            >Banner and Notification</a
+          >
+        </div>
+        <div class="top dash">
+          <i class="fas fa-bell"></i>
+          <a href="../enquiry/cancel.html" class="nav-link"
+            >Enquiry Management</a
+          >
+        </div>
+        <div class="top">
+          <i class="fas fa-ticket-alt"></i>
+          <a href="../voucher/cancel.html" class="nav-link"
+            >Voucher Management</a
+          >
+        </div>
+        <div class="top">
+          <i class="fas fa-users"></i>
+          <a href="#" class="nav-link">Community Management</a>
+        </div>
+        <div class="top">
+          <i class="fas fa-clipboard-check"></i>
+          <a href="../report/cancel.html" class="nav-link">Report</a>
+        </div>
+        <div class="top">
+          <i class="fas fa-redo-alt"></i>
+          <a href="#" class="nav-link">Vision update</a>
+        </div>
+        <div class="top">
+          <i class="fas fa-cog"></i>
+          <a href="#" class="nav-link">Setting</a>
+        </div>
+      </nav>
+      <div class="right">
+        <div class="first">
+          <i class="fas fa-bell"></i>
+          <p>Enquiry Management</p>
+        </div>
+        <h3 style="color: black; font-weight: bold">Enquiry Management</h3>
+        <div class="bottom-right">
+          <div class="filter-top">
+            <p class="top-p">User Enquiry (2542)</p>
+            <p class="top-p black-underline">Retailer Enquiry (2456)</p>
+          </div>
+          <div class="bottom-search">
+            <div class="search-div">
+              <label for="ship">Status</label>
+              <div class="drop">
+                <p class="shipping">All</p>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+            <a href="#" class="search-btn">Search</a>
+          </div>
+          <div class="bottom-table">
+            <table style="width: 100%; border-collapse: collapse">
+              <tr class="bg">
+                <th><input type="checkbox" name="#" id="" /></th>
+                <th>
+                  <p>Date</p>
+                </th>
+                <th>Retailer Name</th>
+                <th>Product Name</th>
+                <th>
+                  <p>Remark</p>
+                </th>
+                <th>Status</th>
+              </tr>
+
+              <tr>
+                <td><input type="checkbox" name="#" id="" /></td>
+                <td>
+                  <p>31/12/2020</p>
+                </td>
+                <td>
+                  <div class="row-flex">
+                    <img src="./Group 839.png" alt="" />
+                    <p style="text-decoration: underline; margin-left: 20px">
+                      retailer name01
+                    </p>
+                  </div>
+                </td>
+                <td style="padding: 0">
+                  <p>GAIDO TIMING BELT KIT PROTON</p>
+                </td>
+                <td style="width: 46%">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad mini
+                  </p>
+                </td>
+                <td>Pending</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="#" id="" /></td>
+                <td>
+                  <p>31/12/2020</p>
+                </td>
+                <td>
+                  <div class="row-flex">
+                    <img src="./Group 839.png" alt="" />
+                    <p style="text-decoration: underline; margin-left: 20px">
+                      retailer name01
+                    </p>
+                  </div>
+                </td>
+                <td style="padding: 0">
+                  <p>GAIDO TIMING BELT KIT PROTON</p>
+                </td>
+                <td style="width: 46%">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad mini
+                  </p>
+                </td>
+                <td>Pending</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="#" id="" /></td>
+                <td>
+                  <p>31/12/2020</p>
+                </td>
+                <td>
+                  <div class="row-flex">
+                    <img src="./Group 839.png" alt="" />
+                    <p style="text-decoration: underline; margin-left: 20px">
+                      retailer name01
+                    </p>
+                  </div>
+                </td>
+                <td style="padding: 0">
+                  <p>GAIDO TIMING BELT KIT PROTON</p>
+                </td>
+                <td style="width: 46%">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad mini
+                  </p>
+                </td>
+                <td>Pending</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="#" id="" /></td>
+                <td>
+                  <p>31/12/2020</p>
+                </td>
+                <td>
+                  <div class="row-flex">
+                    <img src="./Group 839.png" alt="" />
+                    <p style="text-decoration: underline; margin-left: 20px">
+                      retailer name01
+                    </p>
+                  </div>
+                </td>
+                <td style="padding: 0">
+                  <p>GAIDO TIMING BELT KIT PROTON</p>
+                </td>
+                <td style="width: 46%">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad mini
+                  </p>
+                </td>
+                <td>Pending</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="#" id="" /></td>
+                <td>
+                  <p>31/12/2020</p>
+                </td>
+                <td>
+                  <div class="row-flex">
+                    <img src="./Group 839.png" alt="" />
+                    <p style="text-decoration: underline; margin-left: 20px">
+                      retailer name01
+                    </p>
+                  </div>
+                </td>
+                <td style="padding: 0">
+                  <p>GAIDO TIMING BELT KIT PROTON</p>
+                </td>
+                <td style="width: 46%">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad mini
+                  </p>
+                </td>
+                <td>Pending</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="#" id="" /></td>
+                <td>
+                  <p>31/12/2020</p>
+                </td>
+                <td>
+                  <div class="row-flex">
+                    <img src="./Group 839.png" alt="" />
+                    <p style="text-decoration: underline; margin-left: 20px">
+                      retailer name01
+                    </p>
+                  </div>
+                </td>
+                <td style="padding: 0">
+                  <p>GAIDO TIMING BELT KIT PROTON</p>
+                </td>
+                <td style="width: 46%">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad mini
+                  </p>
+                </td>
+                <td>Pending</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="#" id="" /></td>
+                <td>
+                  <p>31/12/2020</p>
+                </td>
+                <td>
+                  <div class="row-flex">
+                    <img src="./Group 839.png" alt="" />
+                    <p style="text-decoration: underline; margin-left: 20px">
+                      retailer name01
+                    </p>
+                  </div>
+                </td>
+                <td style="padding: 0">
+                  <p>GAIDO TIMING BELT KIT PROTON</p>
+                </td>
+                <td style="width: 46%">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad mini
+                  </p>
+                </td>
+                <td>Pending</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="#" id="" /></td>
+                <td>
+                  <p>31/12/2020</p>
+                </td>
+                <td>
+                  <div class="row-flex">
+                    <img src="./Group 839.png" alt="" />
+                    <p style="text-decoration: underline; margin-left: 20px">
+                      retailer name01
+                    </p>
+                  </div>
+                </td>
+                <td style="padding: 0">
+                  <p>GAIDO TIMING BELT KIT PROTON</p>
+                </td>
+                <td style="width: 46%">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad mini
+                  </p>
+                </td>
+                <td>Pending</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="#" id="" /></td>
+                <td>
+                  <p>31/12/2020</p>
+                </td>
+                <td>
+                  <div class="row-flex">
+                    <img src="./Group 839.png" alt="" />
+                    <p style="text-decoration: underline; margin-left: 20px">
+                      retailer name01
+                    </p>
+                  </div>
+                </td>
+                <td style="padding: 0">
+                  <p>GAIDO TIMING BELT KIT PROTON</p>
+                </td>
+                <td style="width: 46%">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad mini
+                  </p>
+                </td>
+                <td>Pending</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="#" id="" /></td>
+                <td>
+                  <p>31/12/2020</p>
+                </td>
+                <td>
+                  <div class="row-flex">
+                    <img src="./Group 839.png" alt="" />
+                    <p style="text-decoration: underline; margin-left: 20px">
+                      retailer name01
+                    </p>
+                  </div>
+                </td>
+                <td style="padding: 0">
+                  <p>GAIDO TIMING BELT KIT PROTON</p>
+                </td>
+                <td style="width: 46%">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad mini
+                  </p>
+                </td>
+                <td>Pending</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="#" id="" /></td>
+                <td>
+                  <p>31/12/2020</p>
+                </td>
+                <td>
+                  <div class="row-flex">
+                    <img src="./Group 839.png" alt="" />
+                    <p style="text-decoration: underline; margin-left: 20px">
+                      retailer name01
+                    </p>
+                  </div>
+                </td>
+                <td style="padding: 0">
+                  <p>GAIDO TIMING BELT KIT PROTON</p>
+                </td>
+                <td style="width: 46%">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad mini
+                  </p>
+                </td>
+                <td>Pending</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="#" id="" /></td>
+                <td>
+                  <p>31/12/2020</p>
+                </td>
+                <td>
+                  <div class="row-flex">
+                    <img src="./Group 839.png" alt="" />
+                    <p style="text-decoration: underline; margin-left: 20px">
+                      retailer name01
+                    </p>
+                  </div>
+                </td>
+                <td style="padding: 0">
+                  <p>GAIDO TIMING BELT KIT PROTON</p>
+                </td>
+                <td style="width: 46%">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad mini
+                  </p>
+                </td>
+                <td>Pending</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- <div class="arrows">
+                    <i class="fas fa-sort-up"></i
+                    ><i class="fas fa-sort-down"></i>
+                  </div> -->
